@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas1{
+    width: 100%;
+    display: block;
+   
+}
+body{
+    position: relative;
+}
+#press{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 36px;
+    color: brown ;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    text-decoration: none;
+    color: black;
+    transform: translate(-50%,-50%);
+}
